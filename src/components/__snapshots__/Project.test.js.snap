@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="makeStyles-root-8"
+>
+  <h1
+    className="makeStyles-header-9"
+  >
+    Project Title
+  </h1>
+  <a
+    aria-current="page"
+    className="makeStyles-link-12 active"
+    href="/"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    Back To List
+  </a>
+  <div
+    className="MuiPaper-root MuiCard-root makeStyles-card-10 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <p>
+      Loading data...
+    </p>
+  </div>
+</div>
+`;
