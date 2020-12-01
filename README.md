@@ -1,3 +1,11 @@
+# Using the app
+## Setting client
+The application display changes based on the ```REACT_APP_CLIENT``` variables in the .env file. 
+Change the variable with ```CLIENT1``` or ```CLIENT2```;
+
+##Languages
+French and english are supported, change default language in ```i18n.js```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
