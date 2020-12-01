@@ -29,7 +29,7 @@ const useClient1Styles = makeStyles((theme) => ({
     },
     item: {
         padding: 15,
-        width: '20vw',
+        width: 400,
         backgroundColor: 'mediumaquamarine',
         border: 'aquamarine',
         borderWidth: 0.5,
@@ -60,7 +60,7 @@ const useClient2Styles = makeStyles((theme) => ({
     },
     item: {
         padding: 15,
-        width: '20vw',
+        width: 400,
         backgroundColor: 'indianred',
         border: 'aquamarine',
         borderWidth: 0.5,
@@ -103,7 +103,7 @@ const ProjectList = () => {
     return (
         <div className="container">
             <div className={classes.list}>
-                <h1 className={classes.title}>{t('Title')}</h1>
+                <h1 className={classes.title}>{t('Miimosa Project List')}</h1>
                 {loading && (<p>Loading data...</p>)}
                 {data && data.projects.length && data.projects.map((project, index) => {
                     const logo = () => {

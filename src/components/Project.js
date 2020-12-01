@@ -41,8 +41,7 @@ const useClient1Styles = makeStyles({
         textAlign: 'center'
     },
     link: {
-        marginLeft: '8vw',
-        marginTop: '25vw',
+        marginLeft: '5vw',
         textDecoration: 'none',
         color: 'black'
     },
@@ -90,8 +89,7 @@ const useClient2Styles = makeStyles({
         textAlign: 'center'
     },
     link: {
-        marginLeft: '25vw',
-        marginTop: '8vw',
+        marginLeft: '5vw',
         textDecoration: 'none',
         color: 'black'
     },
@@ -151,7 +149,7 @@ const Project = ({location}) => {
     }
     return (
         <div className={classes.root}>
-            <h1 className={classes.header}>{t('Project Title')}</h1>
+            <h1 className={classes.header}>{t('Project Details')}</h1>
             <NavLink to='/' className={classes.link}>{t('Back To List')}</NavLink>
             <Card className={classes.card}>
                 {loading && (<p>Loading data...</p>)}
