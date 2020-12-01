@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 import Project from './components/Project';
 import ProjectList from './components/ProjectList';
 
 function App() {
   return (
-      <Router>
+      <Router basename='/'>
         <div>
-          <Route path="/" exact component={ProjectList} />
-          <Route path="/:id" component={Project} />
+          <Route path='/' exact component={ProjectList} />
+          <Route path='/:id' exact component={Project} />
         </div>
       </Router>
   );
